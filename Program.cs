@@ -17,7 +17,10 @@ namespace Calculadora
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Divisão");
             Console.WriteLine("4 - Multiplicação");
-            Console.WriteLine("5 - Sair");
+            Console.WriteLine("5 - Raiz");
+            Console.WriteLine("6 - Modulo");
+            Console.WriteLine("7 - Pôtencia");
+            Console.WriteLine("8 - Sair");
             Console.WriteLine("---------");
 
             Console.WriteLine("Selecione uma opcão: ");
