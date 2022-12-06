@@ -17,7 +17,10 @@ namespace Calculadora
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Divisão");
             Console.WriteLine("4 - Multiplicação");
-            Console.WriteLine("5 - Sair");
+            Console.WriteLine("5 - Raiz");
+            Console.WriteLine("6 - Modulo");
+            Console.WriteLine("7 - Pôtencia");
+            Console.WriteLine("8 - Sair");
             Console.WriteLine("---------");
 
             Console.WriteLine("Selecione uma opcão: ");
@@ -37,7 +40,16 @@ namespace Calculadora
                 case 4:
                     Multiplicacao();
                     break;
-                case 5: System.Environment.Exit(0); break;
+                case 5:
+                    Raiz();
+                    break;
+                case 6:
+                    Modulo();
+                    break;
+                case 7:
+                    Potencia();
+                    break;
+                case 8: System.Environment.Exit(0); break;
                 default:
                     menu();
                     break;
@@ -111,6 +123,55 @@ namespace Calculadora
             Console.ReadKey();
             menu();
         }
+
+        static void Raiz()
+        {
+            Console.Clear();
+            Console.WriteLine("Qual o  valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("");
+
+            var resultado = Math.Sqrt(v1);
+
+
+            Console.WriteLine($"A Raiz é: {resultado}");
+            Console.ReadKey();
+            menu();
+        }
+        static void Modulo()
+        {
+            Console.Clear();
+            Console.WriteLine("Qual o  valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+           
+            Console.WriteLine("");
+
+            var resultado = v1;
+            if (v1 < 0)
+            {
+                resultado = v1 * -1;
+            }
+
+            Console.WriteLine($"O Modulo é: {resultado}");
+            Console.ReadKey();
+            menu();
+        }
+        static void Potencia()
+        {
+            Console.Clear();
+            Console.WriteLine("Primeiro valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+            Console.WriteLine("Segundo valor: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("");
+            var resultado = Math.Pow(v1,v2);
+            Console.WriteLine($"O resultado da Potência é: {resultado}");
+            Console.ReadKey();
+            menu();
+        }
     }
 
+        
 }
