@@ -1,0 +1,17 @@
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\bin\Debug\net6.0-windows\CalculadoraForm.exe
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\bin\Debug\net6.0-windows\CalculadoraForm.deps.json
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\bin\Debug\net6.0-windows\CalculadoraForm.runtimeconfig.json
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\bin\Debug\net6.0-windows\CalculadoraForm.dll
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\bin\Debug\net6.0-windows\CalculadoraForm.pdb
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.Form1.resources
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.csproj.GenerateResource.cache
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.AssemblyInfo.cs
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.dll
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\refint\CalculadoraForm.dll
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.pdb
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\CalculadoraForm.genruntimeconfig.cache
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraForms\obj\Debug\net6.0-windows\ref\CalculadoraForm.dll
