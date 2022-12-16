@@ -1,0 +1,12 @@
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\bin\Debug\net6.0\Operacoes.deps.json
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\bin\Debug\net6.0\Operacoes.dll
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\bin\Debug\net6.0\Operacoes.pdb
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\Operacoes.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\Operacoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\Operacoes.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\Operacoes.AssemblyInfo.cs
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\Operacoes.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\Operacoes.dll
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\refint\Operacoes.dll
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\Operacoes.pdb
+C:\Users\Dell\Documents\Testes\CalculadoraForm\Operacoes\obj\Debug\net6.0\ref\Operacoes.dll

@@ -2,6 +2,7 @@ using Microsoft.CSharp;
 using System.CodeDom.Compiler;
 using System.Linq;
 using System.Reflection;
+using Operacoes;
 
 namespace CalculadoraForm
 {
@@ -32,25 +33,30 @@ namespace CalculadoraForm
             double valorUm = Convert.ToDouble(leituraTopo.Substring(0, leituraTopo.Length -1));
             char operador = leituraTopo[leituraTopo.Length - 1];
             double valorDois = Convert.ToDouble(leituraBaixo);
-            
+            Calcular calcular = new Calcular();
             
             switch (operador)
             {
-                case '+': return Soma(valorUm, valorDois);
-                case '-': return Subtracao(valorUm, valorDois);
-                case '*': return Multiplicacao(valorUm, valorDois);
-                case '/': return Divisao(valorUm, valorDois);
-                case '|': return Raiz(valorUm);
+                case '+': 
+                     calcular.Soma(valorUm, valorDois);
+                     return calcular.Resposta;
+                case '-':
+                    calcular.Subtracao(valorUm, valorDois);
+                    return calcular.Resposta;
+                case '*':
+                    calcular.Multiplicacao(valorUm, valorDois);
+                    return calcular.Resposta;
+                case '/':
+                    calcular.Divisao(valorUm, valorDois);
+                    return calcular.Resposta;
+                case '|':
+                    calcular.Raiz(valorUm);
+                    return calcular.Resposta;
                 default: return 0.0; 
 
             }
 
         }
-        private double Soma(double v1, double v2) => v1 + v2;
-        private double Subtracao(double v1, double v2) => v1 - v2;
-        private double Divisao(double v1, double v2) => v1 / v2;
-        private double Multiplicacao(double v1, double v2) => v1 * v2;
-        private double Raiz(double v1) => Math.Sqrt(v1);
         private void btnZero_Click(object sender, EventArgs e)
         {
             if (painelTopo.Text.IndexOf("=") != -1)
