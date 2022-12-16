@@ -13,3 +13,6 @@ C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraConsole\obj\Debug\net7
 C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraConsole\obj\Debug\net7.0\Calculadora.pdb
 C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraConsole\obj\Debug\net7.0\Calculadora.genruntimeconfig.cache
 C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraConsole\obj\Debug\net7.0\ref\Calculadora.dll
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraConsole\bin\Debug\net7.0\Operacoes.dll
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraConsole\bin\Debug\net7.0\Operacoes.pdb
+C:\Users\Dell\Documents\Testes\CalculadoraForm\CalculadoraConsole\obj\Debug\net7.0\Calculadora.csproj.CopyComplete

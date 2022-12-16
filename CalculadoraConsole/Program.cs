@@ -1,4 +1,5 @@
 ﻿using System;
+using Operacoes;
 
 namespace Calculadora
 {
@@ -57,69 +58,52 @@ namespace Calculadora
         }
         static void Soma()
         {
-            Console.Clear();
-            Console.WriteLine("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("Segundo valor: ");
-            float v2 = float.Parse(Console.ReadLine());
+            Perguntas perguntas = new Perguntas();
+            perguntas.DoisValores();
 
-            Console.WriteLine("");
+            Calcular calcular = new Calcular();
+            calcular.Soma(perguntas.resValorUm, perguntas.resValorDois);
 
-            float resultado = v1 + v2;
-            Console.WriteLine("O resultado da soma é: " + resultado);
-            Console.WriteLine($"O resultado da soma é: {resultado}");
-            Console.WriteLine($"O resultado da soma é: {v1 + v2}");
+            Console.WriteLine($"O resultado da soma é: {calcular.Resposta}");
             Console.ReadKey();
             menu();
         }
 
         static void Subtracao()
         {
-            Console.Clear();
-            Console.WriteLine("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+            Perguntas perguntas = new Perguntas();
+            perguntas.DoisValores();
 
-            Console.WriteLine("Segundo valor: ");
-            float v2 = float.Parse(Console.ReadLine());
+            Calcular calcular = new Calcular();
+            calcular.Subtracao(perguntas.resValorUm, perguntas.resValorDois);
 
-            Console.WriteLine("");
-            float resutado = v1 - v2;
-            Console.WriteLine($"O resultado da subtração é: {resutado}");
+            Console.WriteLine($"O resultado da subtração é: {calcular.Resposta}");
             Console.ReadKey();
             menu();
         }
 
         static void Divisao()
         {
-            Console.Clear();
-            Console.WriteLine("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+            Perguntas perguntas = new Perguntas();
+            perguntas.DoisValores();
 
-            Console.WriteLine("Segundo Valor: ");
-            float v2 = float.Parse(Console.ReadLine());
+            Calcular calcular = new Calcular();
+            calcular.Divisao(perguntas.resValorUm, perguntas.resValorDois);
 
-            Console.WriteLine("");
-
-            float resultado = v1 / v2;
-            Console.WriteLine($"O resultado da divisão é {resultado}");
+            Console.WriteLine($"O resultado da divisão é {calcular.Resposta}");
             Console.ReadKey();
             menu();
         }
 
         static void Multiplicacao()
         {
-            Console.Clear();
+            Perguntas perguntas = new Perguntas();
+            perguntas.DoisValores();
 
-            Console.WriteLine("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+            Calcular calcular = new ();
+            calcular.Multiplicacao(perguntas.resValorUm, perguntas.resValorDois);
 
-            Console.WriteLine("Segundo valor: ");
-            float v2 = float.Parse(Console.ReadLine());
-
-            Console.WriteLine("");
-
-            float resultado = v1 * v2;
-            Console.WriteLine($"O resultado a multiplicação é: {resultado}");
+            Console.WriteLine($"O resultado a multiplicação é: {calcular.Resposta}");
             Console.ReadKey();
             menu();
         }
@@ -132,8 +116,9 @@ namespace Calculadora
 
             Console.WriteLine("");
 
-            var resultado = Math.Sqrt(v1);
-
+            Calcular calcular = new Calcular();
+            calcular.Raiz(v1);
+            float resultado = Convert.ToSingle(calcular.Resposta);
 
             Console.WriteLine($"A Raiz é: {resultado}");
             Console.ReadKey();
@@ -146,12 +131,9 @@ namespace Calculadora
             float v1 = float.Parse(Console.ReadLine());
            
             Console.WriteLine("");
-
-            var resultado = v1;
-            if (v1 < 0)
-            {
-                resultado = v1 * -1;
-            }
+            Calcular calcular = new Calcular();
+            calcular.Modulo(v1);
+            float resultado = Convert.ToSingle(calcular.Resposta);
 
             Console.WriteLine($"O Modulo é: {resultado}");
             Console.ReadKey();
@@ -166,12 +148,17 @@ namespace Calculadora
             float v2 = float.Parse(Console.ReadLine());
 
             Console.WriteLine("");
-            var resultado = Math.Pow(v1,v2);
+
+            Calcular calcular = new Calcular();
+            calcular.Potencia(v1, v2);
+            float resultado = Convert.ToSingle(calcular.Resposta);
+
             Console.WriteLine($"O resultado da Potência é: {resultado}");
             Console.ReadKey();
             menu();
         }
     }
+      
 
         
 }
